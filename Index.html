@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juliana Bless L. Eltagonde | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* ── Icon sizing inside containers ── */
+    .icon svg,
+    .link-icon svg,
+    .focus-icon svg {
+      display: block;
+    }
+    .icon svg {
+      width: 13px;
+      height: 13px;
+      stroke: var(--accent);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .link-icon svg {
+      width: 18px;
+      height: 18px;
+      stroke: var(--muted);
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: stroke 0.3s;
+    }
+    .connect-link:hover .link-icon svg {
+      stroke: var(--bg);
+    }
+    .focus-icon svg {
+      width: 22px;
+      height: 22px;
+      stroke: var(--accent);
+      fill: none;
+      stroke-width: 1.75;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ── Navigation ── -->
+  <nav>
+    <a href="#home" class="nav-logo">JBE</a>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#connect">Connect</a></li>
+      <li><a href="#cv">CV</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── Profile / Hero ── -->
+  <section id="home">
+    <div class="hero-bg-circle"></div>
+    <div class="hero-bg-circle2"></div>
+
+  <!-- Left: Introduction -->
+    <div class="hero-left">
+  
+  <h1 class="hero-name">
+    Hi, I'm <br>
+    <span>Juliana Bless</span><br>
+    L. Eltagonde
+  </h1>
+
+  <p class="hero-bio">
+    A Computer Science student with a genuine love for web design 
+    and building things that feel intuitive and meaningful. 
+    I explore new technologies to grow as a developer — 
+    one project at a time.
+  </p>
+
+  <div class="hero-actions">
+    <a href="#projects" class="btn-primary">View My Work</a>
+    <a href="#connect" class="btn-ghost">Get in Touch</a>
+  </div>
+
+</div>
+
+  <!-- Right: Profile Photo -->
+<div class="hero-right">
+  <div class="hero-photo-wrap">
+    <img src="2x2 photo.jpeg" alt="Juliana Bless Eltagonde" class="hero-photo" />
+  </div>
+
+  <!-- Info below photo -->
+  <div class="hero-photo-info">
+    <h3>Juliana Bless L. Eltagonde</h3>
+    <p>BSCS Student · Web Designer &amp; Software Developer</p>
+    <div class="card-meta">
+
+
+      <div class="card-meta-item">
+        <div class="icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 7l10 7 10-7"/>
+          </svg>
+        </div>
+        <a href="mailto:eltagondejuliana2@gmail.com">eltagondejuliana2@gmail.com</a>
+      </div>
+
+      <div class="card-meta-item">
+        <div class="icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+          </svg>
+        </div>
+        <a href="https://github.com/julieee16" target="_blank">github.com/julieee16</a>
+      </div>
+
+      <div class="card-meta-item">
+        <div class="icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+        </div>
+        <a href="https://www.facebook.com/share/1HXu3yhS3u/" target="_blank">Facebook Profile</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+  </section>
+
+  <!-- ── Skills ── -->
+  <section id="skills">
+    <div class="section-label">Skills &amp; Focus</div>
+    <h2 class="section-title">What I Do &amp;<br>Where I Focus</h2>
+    <div class="divider"></div>
+
+    <div class="about-grid">
+      <!-- What I Do -->
+      <div class="what-i-do reveal">
+        <h3>What I Do</h3>
+        <ul>
+          <li>Design and build clean, user-friendly websites and web interfaces</li>
+          <li>Develop software applications — from desktop tools to full-stack web systems</li>
+          <li>Develop full-stack web applications using modern tools and frameworks</li>
+          <li>Create intuitive UI layouts that prioritize usability and accessibility</li>
+          <li>Build interactive tools and games that apply creative problem-solving</li>
+          <li>Collaborate on team projects, taking on diverse roles from frontend to logic</li>
+          <li>Continuously learn and experiment with new technologies to level up my skills</li>
+        </ul>
+      </div>
+
+      <!-- Focus Areas -->
+      <div class="reveal" style="transition-delay: 0.15s">
+        <div style="margin-bottom:1.2rem; font-family:'Playfair Display',serif; font-size:1.4rem; font-style:italic; color:var(--accent3);">Focus Areas</div>
+        <div class="focus-grid">
+
+          <!-- Web Design -->
+          <div class="focus-card">
+            <div class="focus-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <h4>Web Design</h4>
+            <p>Layout · UI · UX</p>
+          </div>
+
+          <!-- Software Dev -->
+          <div class="focus-card">
+            <div class="focus-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                <path d="M8 21h8M12 17v4"/>
+                <path d="M7 8l3 3-3 3"/>
+                <line x1="13" y1="14" x2="17" y2="14"/>
+              </svg>
+            </div>
+            <h4>Software Dev</h4>
+            <p>Apps · Systems · Tools</p>
+          </div>
+
+          <!-- Web Dev -->
+          <div class="focus-card">
+            <div class="focus-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
+              </svg>
+            </div>
+            <h4>Web Dev</h4>
+            <p>Frontend · Backend · Logic</p>
+          </div>
+
+          <!-- Security -->
+          <div class="focus-card">
+            <div class="focus-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h4>Security</h4>
+            <p>Steganography · Data Privacy</p>
+          </div>
+
+          <!-- Databases -->
+          <div class="focus-card">
+            <div class="focus-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+              </svg>
+            </div>
+            <h4>Databases</h4>
+            <p>CRUD · Storage · Systems</p>
+          </div>
+
+          <!-- Creative Tech -->
+          <div class="focus-card">
+            <div class="focus-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <h4>Creative Tech</h4>
+            <p>Games · Tools · Apps</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Experience ── -->
+  <section id="experience">
+    <div class="section-label">Leadership &amp; Organizations</div>
+    <h2 class="section-title">Experience &amp;<br>Involvement</h2>
+    <p class="section-desc">Student leadership roles that shaped my ability to collaborate, communicate, and contribute meaningfully.</p>
+    <div class="divider"></div>
+
+    <div class="exp-list">
+      <div class="exp-item reveal">
+        <div class="exp-dot"></div>
+        <div class="exp-year">2025–2026</div>
+        <div class="exp-content">
+          <h3>SOCIO Undersecretary</h3>
+          <p>Serving as Undersecretary for Socials — handling coordination, communication, and community engagement initiatives within the student organization.</p>
+          <span class="exp-tag">Leadership</span>
+        </div>
+      </div>
+
+      <div class="exp-item reveal" style="transition-delay: 0.1s">
+        <div class="exp-dot"></div>
+        <div class="exp-year">2024–2025</div>
+        <div class="exp-content">
+          <h3>Deputy SOCIO Secretary</h3>
+          <p>Assisted the Socials Secretary in managing organizational documents, correspondence, and student engagement activities.</p>
+          <span class="exp-tag">Leadership</span>
+        </div>
+      </div>
+
+      <div class="exp-item reveal" style="transition-delay: 0.2s">
+        <div class="exp-dot"></div>
+        <div class="exp-year">2023–2024</div>
+        <div class="exp-content">
+          <h3>ACSS Floor Committee</h3>
+          <p>Part of the Association of Computer Science Students floor committee — contributing to events, floor coordination, and student body activities.</p>
+          <span class="exp-tag">ACSS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Projects ── -->
+  <section id="projects">
+    <div class="section-label">Featured Work</div>
+    <h2 class="section-title">Projects I've<br>Built</h2>
+    <p class="section-desc">Highlights from my work — from security tools and management systems to games and everyday utilities.</p>
+    <div class="divider"></div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-number">01</div>
+        <div class="project-type">Security · Web App</div>
+        <h3>Hidden Secrets: Steganography Tool</h3>
+        <p>A web-based steganography tool that hides secret messages inside images — merging security concepts with a clean, accessible interface.</p>
+        <a href="https://hidden-secrets.vercel.app/" target="_blank" class="project-link">Live Demo →</a>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay: 0.1s">
+        <div class="project-number">02</div>
+        <div class="project-type">System · Management</div>
+        <h3>Student Conduct Management System</h3>
+        <p>A comprehensive SCMS for tracking and managing student conduct records, cases, and disciplinary processes in an academic setting.</p>
+        <a href="https://github.com/JorgioMer/Student-Conduct-Management-System-SCMS-" target="_blank" class="project-link">View Repo →</a>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay: 0.2s">
+        <div class="project-number">03</div>
+        <div class="project-type">Productivity · Web App</div>
+        <h3>To-Do List Task Manager</h3>
+        <p>A simple, functional task management app that helps users organize and track their daily to-dos with a clean, distraction-free interface.</p>
+        <a href="https://github.com/JorgioMer/ToDoListTask" target="_blank" class="project-link">View Repo →</a>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay: 0.1s">
+        <div class="project-number">04</div>
+        <div class="project-type">Mobile · Computer Vision</div>
+        <h3>Sinsilyo: Philippine Coin Identifier</h3>
+        <p>A coin recognition app that identifies Philippine coins using image processing — celebrating local currency through technology.</p>
+        <a href="https://github.com/josh-amir/Coin-Identifier-Application" target="_blank" class="project-link">View Repo →</a>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay: 0.2s">
+        <div class="project-number">05</div>
+        <div class="project-type">Game · Culture</div>
+        <h3>LarongPinoy: Teks-Apiran Game</h3>
+        <p>A digital recreation of the classic Filipino street game Teks-Apiran — celebrating Philippine culture through interactive, playful software.</p>
+        <a href="https://github.com/daiszemi16/LarongPinoy-Teks-Apiran-Game" target="_blank" class="project-link">View Repo →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Connect ── -->
+  <section id="connect">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Let's Connect</h2>
+    <div class="divider"></div>
+
+    <div class="connect-inner">
+      <div class="reveal">
+        <p class="connect-cta">Have a project, idea, or just want to <em>say hi?</em></p>
+        <p class="connect-sub">I'm always open to learning opportunities, collaborations, and conversations about technology and design. Feel free to reach out through any of these channels.</p>
+      </div>
+
+      <div class="connect-links reveal" style="transition-delay: 0.15s">
+
+        <!-- Email -->
+        <a href="mailto:eltagondejuliana2@gmail.com" class="connect-link">
+          <div class="link-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M2 7l10 7 10-7"/>
+            </svg>
+          </div>
+          <div class="link-text">
+            <strong>Email</strong>
+            <span>eltagondejuliana2@gmail.com</span>
+          </div>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/julieee16" target="_blank" class="connect-link">
+          <div class="link-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+            </svg>
+          </div>
+          <div class="link-text">
+            <strong>GitHub</strong>
+            <span>github.com/julieee16</span>
+          </div>
+        </a>
+
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/share/1HXu3yhS3u/" target="_blank" class="connect-link">
+          <div class="link-icon">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </div>
+          <div class="link-text">
+            <strong>Facebook</strong>
+            <span>facebook.com/JulianaEltagonde</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CV ── -->
+  <section id="cv">
+    <div class="cv-inner reveal">
+      <div class="section-label" style="justify-content: center">Curriculum Vitae</div>
+      <h2 class="section-title" style="text-align: center">My CV</h2>
+      <p>A summary of my academic background, technical skills, leadership roles, and projects. Available for download below.</p>
+      <div class="cv-highlights">
+        <div class="cv-stat">
+          <strong>5+</strong>
+          <span>Projects Built</span>
+        </div>
+        <div class="cv-stat">
+          <strong>3</strong>
+          <span>Leadership Roles</span>
+        </div>
+        <div class="cv-stat">
+          <strong>BSCS</strong>
+          <span>Degree Program</span>
+        </div>
+      </div>
+      <a href="mailto:eltagondejuliana2@gmail.com?subject=CV Request" class="btn-primary" style="display: inline-block; cursor: none;">Request My CV →</a>
+      <p style="margin-top: 1rem; font-size: 0.78rem; color: var(--muted);">Or reach out via email to receive my full curriculum vitae.</p>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-text">
+        © 2025 Juliana Bless L. Eltagonde · BSCS Student
+      </div>
+    </div>
+  </footer>
+
+  <script src="Sript.js"></script>
+</body>
+</html>
